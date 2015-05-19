@@ -1,0 +1,167 @@
+<!DOCTYPE HTML>
+<!--
+	Miniport by HTML5 UP
+	html5up.net | @n33co
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Trapit Bansal</title>
+		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+		<meta name="description" content="" />
+		<meta name="keywords" content="" />
+		<!--[if lte IE 8]><script src="css/ie/html5shiv.js"></script><![endif]-->
+		<script src="js/jquery.min.js"></script>
+		<script src="js/jquery.scrolly.min.js"></script>
+		<script src="js/skel.min.js"></script>
+		<script src="js/init.js"></script>
+		<noscript>
+			<link rel="stylesheet" href="css/skel.css" />
+			<link rel="stylesheet" href="css/style.css" />
+			<link rel="stylesheet" href="css/style-desktop.css" />
+		</noscript>
+		<!--[if lte IE 8]><link rel="stylesheet" href="css/ie/v8.css" /><![endif]-->
+		<!--[if lte IE 9]><link rel="stylesheet" href="css/ie/v9.css" /><![endif]-->
+	</head>
+	<body>
+
+		<!-- Nav -->
+			<nav id="nav">
+				<ul class="container">
+					<li><a href="#top">Top</a></li>
+					<li><a href="#aboutme">About Me</a></li>
+					<li><a href="#publications">Publications</a></li>
+					<li><a href="#code">Code</a></li>
+					<li><a href="#contact">Contact</a></li>
+				</ul>
+			</nav>
+
+		<!-- Home -->
+			<div class="wrapper style1">
+				<article class="container" id="top">
+					<div class="row">
+						<div class="4u">
+							<span class="image fit"><img src="images/TB2.png" alt="" /></span>
+						</div>
+						<div class="8u">
+							<header>
+								<h1>Hi. I'm <strong>Trapit</strong>.</h1>
+							</header>
+							<p> A machine learning enthusiast, currently working on probabilistic learning. I look at ways to make sense from data under the formalization of Bayesian statistics, with the current focus being on topic models and Bayesian nonparametrics.</p>
+							<a href="#aboutme" class="button big scrolly">Learn about what I do</a>
+						</div>
+					</div>
+				</article>
+			</div>
+
+		<div class="wrapper style2">
+				<article class="container" id="aboutme">
+					<div class="row">
+						<div class="4u">
+								
+								<h2>Current</h2>
+							<p>I am a research assistant in the <a href="http://mllab.csa.iisc.ernet.in/" target="_blank">Machine Learning Lab</a> at <a href="http://www.csa.iisc.ernet.in/" target="_blank">Indian Institue of Science</a>. I work with <a href="http://drona.csa.iisc.ernet.in/~chiru/" target="_blank">Prof. Chiranjib Bhattacharyya</a> and <a href="http://en.wikipedia.org/wiki/Ravindran_Kannan" target="_blank">Prof. Ravindran Kannan</a>. My work lies largely in the areas of hierarchial and nonparametric Bayesian modeling, topic models, approximate and provable inference methods and recommender systems. Check out some of my <a href="#publications"  class="scrolly">publications</a> to know more.</br></br> 
+<!---<font size=3>Fun Fact: <label title="Trapit Bansal <-- Ravi Kannan <-- Laszlo Lovasz <-- Paul Erd&odblac;s">My Erdős number is 3</label></font></p>--->
+						</div>
+						
+						<div class="4u">
+								<h2>Prior Work-Ex</h2>
+							<p>I did a brief stint as an Analyst at Accenture Management Consulting where I was invovled in a client-facing project on supply chain optimization for a major multinational brand.</p>
+
+								<h2>Education</h2>
+
+							<p>I graudated from <a href="http://www.iitk.ac.in/" target="_blank">Indian Institute of Technology Kanpur</a> with a B.Sc.+M.Sc. in <a href="http://www.iitk.ac.in/math/m-sc-integrated" target="_blank">Mathematics and Scientific Computing</a> in 2012.</p>
+						</div>
+						
+						<div class="4u">
+							<!---
+							<h2>Languages I Know</h2>
+							<font size=4>In order of proficiency:</font>
+							<p>Python, Matlab, C</br> R, Java </br>
+							I also know Hindi and English</p>
+							--->
+							<h2>Data Science Tool Kit</h2>
+							Algorithms and tools I use often <font size=2>(hover for more info)</font>
+							<p align="left"><strong>Supervised</strong>: <label title="Linear, Logistic, Kernel, Robust">Regression</label>, SVM, <label title="Random Forest, Gradient Boosted">Decision Trees and Forests</label>, Naive Bayes, kNN, <label title="Just the basic stuff. Getting started on Deep Learning!"> Neural Networks </label>, <label title="Probabilistic Matrix Factorization, Bayesian Personalized Ranking and a few Hybrid models">Collaborative Filtering</label>, Bayesian Models </br>
+							<strong>Unsupervised</strong>: <label title="LDA and its numerous variations, too many to list 'em all (even cath 'em all?)">Topic Models</label>, <label title="DP mixture of Gaussians/Dirichlet, Hierarchical/Dependent/Nested DP Models">Dirichlet Process Mixture models</label>, <label title="K-Means (LLoyds, BIRCH), Gaussian Mixture, Dirichlet Mixture, DP mixture, Spectral Clustering (fancy name for SVD+KMeans)">Clustering</label>, PCA, Probabilistic Graphical Models</br>
+							<strong><label title="I also claim to know English and Hindi">Languages</label>:</strong> <label title="Expert">Python</label>, <label title="Expert">Matlab</label>, <label title="Proficient">C</label>, <label title="Prior Experience">R</label>, <label title="Learnt in previous life. Can read easily, code with effort.">Java</label> </br>
+							<strong>Libraries:</strong> Numpy, Scipy, Scikit-Learn, Pandas, Gensim, ggPlot2, GSL </p>
+						</div>
+					</div>
+				</article>
+			</div>
+		<!-- Publications -->
+			<div class="wrapper style2">
+				<article class="container" id="publications">
+					<div class="container">
+					
+							<h2>Publications</h2>
+						<p style="margin-bottom: 0.5em"> Click the titles for more information about the work and to download paper/supplementary/code/data. </p>
+						<ul style="list-style-type:circle;margin-bottom: 0.5em" align="left">
+							<li> <a style="text-decoration:none" href="">Ordered Stick-Breaking Prior for Sequential MCMC Inference of Bayesian Nonparametric Models</a>. Mrinal Das, <strong>Trapit Bansal</strong>, Chiranjib Bhattacharyya. In International Conference on Machine Learning (ICML), 2015.</li>
+							<li> <a style="text-decoration:none" href="">Relating Romanized Comments to News Articles by Inferring Multi-glyphic Topical Correspondence</a>. Goutham Tholpadi, Mrinal Das, <strong>Trapit Bansal</strong>, Chiranjib Bhattacharyya. In AAAI conference on artificial intelligence (AAAI), 2015.</li>
+							<li> <a style="text-decoration:none" href="">A Provable SVD-based Algorithm for Learning Topics in Dominant Admixture Corpus"</a>. <strong>Trapit Bansal</strong>, Chiranjib Bhattacharyya, Ravindran Kannan. In Neural Information Processing Systems (NIPS), 2014. </li>
+							<li> <a style="text-decoration:none" href="">Going Beyond Corr-LDA for Detecting Specific Comments on News & Blogs</a>. Mrinal Das, <strong>Trapit Bansal</strong>, Chiranjib Bhattacharyya. In ACM international conference on Web Search and Data Mining (WSDM), 2014. </li>
+						</ul>
+					
+						<h3>Working Papers</h3>
+						<ul style="list-style-type:circle" align="left">
+							<li> "Catchwords, Dominant Topics and a Provable SVD-based Algorithm for Topic Modeling", Under Review in Journal of Machine Learning Research (JMLR). <strong>Trapit Bansal</strong>, Chiranjib Bhattacharyya, Ravindran Kannan.</li>
+							<li> "Content Driven User Profiling for Comment-Worthy Recommendations of News and Blog Articles", <strong>Trapit Bansal</strong>, Mrinal Das, Chiranjib Bhattacharyya. (Contact for manuscript)</li>
+						</ul>
+					</div>
+				</article>
+			</div>
+
+		<!-- Code -->
+			<div class="wrapper style3">
+				<article id="code">
+					<header>
+						<h2>Code</h2>
+						<p>To Update</p>
+					</header>
+				</article>
+			</div>
+
+		<!-- Contact -->
+			<div class="wrapper style4">
+				<article id="contact" class="container 75%">
+					<div>
+						<div class="row">
+							<div class="12u">
+								<hr />
+								<h3>Find me on ...</h3>
+								<ul class="social">
+									<li><a href="#" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
+									<li><a href="#" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
+									<li><a href="#" class="icon fa-dribbble"><span class="label">Dribbble</span></a></li>
+									<li><a href="#" class="icon fa-linkedin"><span class="label">LinkedIn</span></a></li>
+									<li><a href="#" class="icon fa-tumblr"><span class="label">Tumblr</span></a></li>
+									<li><a href="#" class="icon fa-google-plus"><span class="label">Google+</span></a></li>
+									<li><a href="#" class="icon fa-github"><span class="label">Github</span></a></li>
+									<!--
+									<li><a href="#" class="icon fa-rss"><span>RSS</span></a></li>
+									<li><a href="#" class="icon fa-instagram"><span>Instagram</span></a></li>
+									<li><a href="#" class="icon fa-foursquare"><span>Foursquare</span></a></li>
+									<li><a href="#" class="icon fa-skype"><span>Skype</span></a></li>
+									<li><a href="#" class="icon fa-soundcloud"><span>Soundcloud</span></a></li>
+									<li><a href="#" class="icon fa-youtube"><span>YouTube</span></a></li>
+									<li><a href="#" class="icon fa-blogger"><span>Blogger</span></a></li>
+									<li><a href="#" class="icon fa-flickr"><span>Flickr</span></a></li>
+									<li><a href="#" class="icon fa-vimeo"><span>Vimeo</span></a></li>
+									-->
+								</ul>
+								<hr />
+							</div>
+						</div>
+					</div>
+					<footer>
+						<ul id="copyright">
+							<li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+						</ul>
+					</footer>
+				</article>
+			</div>
+
+	</body>
+</html>
