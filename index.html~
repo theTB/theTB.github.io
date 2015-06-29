@@ -108,7 +108,7 @@
 							<h2 align="center">Publications</h2>
 						<p style="margin-bottom: 0.5em" align="center">Click the titles for more information about the work and to download paper/supplementary/code/data. </p>
 						<ul style="list-style-type:circle;margin-bottom: 0.5em;">
-							<li> <strong><font color='green'>[New]</font></strong> <a style="text-decoration:none;cursor:pointer;" onclick="$('#recsys15').toggle('slide');">Content Driven User Profiling for Comment-Worthy Recommendations of News and Blog Articles</a>. <strong>Trapit Bansal</strong>, Mrinal Das, Chiranjib Bhattacharyya. In ACM international conference on Recommender Systems (RecSys), 2015.
+							<li> <strong><font color='green'>[New]</font></strong> <a style="text-decoration:none;cursor:pointer;" onclick="$('#icml15').toggle('slide');">Content Driven User Profiling for Comment-Worthy Recommendations of News and Blog Articles</a>. <strong>Trapit Bansal</strong>, Mrinal Das, Chiranjib Bhattacharyya. In ACM international conference on Recommender Systems (RecSys), 2015.
 							<div id="recsys15" style='display:none'>
 								<strong>Abstract</strong>
 								<p style='font-size:80%'> Coming Soon. </p>
