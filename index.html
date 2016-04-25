@@ -118,7 +118,30 @@
 							<h2 align="center">Publications</h2>
 						<p style="margin-bottom: 0.5em" align="center">Click the titles for more information about the work and to download paper/supplementary/code/data. </p>
 						<ul style="list-style-type:circle;margin-bottom: 0.5em;">
-							<li> <font color='green'>[New]</font> <a style="text-decoration:none;cursor:pointer;" onclick="$('#recsys15').toggle('slide');">Content Driven User Profiling for Comment-Worthy Recommendations of News and Blog Articles</a>. <strong>Trapit Bansal</strong>, Mrinal Das, Chiranjib Bhattacharyya. In ACM international conference on Recommender Systems (RecSys), 2015.
+							<li> <font color='green'>[New]</font> <a style="text-decoration:none;cursor:pointer;" onclick="$('#recsys15').toggle('slide');">Ask the GRU: Multi-task Learning for Deep Text Recommendations</a>. <strong>Trapit Bansal</strong>, David Belanger, Andrew McCallum. Under Review. 2016.
+							<div id="recsys15" style='display:none'>
+								<strong>Abstract</strong>
+								<p style='font-size:80%'>
+									In a variety of application domains the content to be recommended to users is associated with text.
+									This includes research papers, movies with associated plot summaries, news articles, blog posts, etc.
+									Recommendation approaches based on latent factor models can be extended naturally to leverage text by
+									employing an explicit mapping from text to factors. This enables recommendations for new, unseen content,
+									and may generalize better, since the factors for all items are produced by a compactly-parametrized model.
+									Previous work has used topic models or averages of word embeddings for this mapping.
+									In this paper we present a method leveraging deep recurrent neural networks to encode the text sequence
+									into a latent vector, specifically gated recurrent units (GRUs) trained end-to-end on the collaborative
+									filtering task. For the task of scientific paper recommendation, this yields models with significantly
+									higher accuracy. In cold-start scenarios, we beat the previous state-of-the-art, all of which ignore word order.
+									Performance is further improved by multi-task learning, where the text encoder network is trained for a combination
+									of content recommendation and item metadata prediction. This regularizes the collaborative filtering model,
+									ameliorating the problem of sparsity of the observed rating matrix.
+								</p>
+								<p><strong>Downloads</strong>: <a href="" download="" target="_blank">Paper</a> (Resources coming soon) </p>
+							</div>
+							</li>
+
+
+							<li> <a style="text-decoration:none;cursor:pointer;" onclick="$('#recsys15').toggle('slide');">Content Driven User Profiling for Comment-Worthy Recommendations of News and Blog Articles</a>. <strong>Trapit Bansal</strong>, Mrinal Das, Chiranjib Bhattacharyya. In ACM international conference on Recommender Systems (RecSys), 2015.
 							<div id="recsys15" style='display:none'>
 								<strong>Abstract</strong>
 								<p style='font-size:80%'>
