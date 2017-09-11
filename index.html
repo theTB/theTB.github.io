@@ -61,9 +61,8 @@
 								<h1>Hi. I'm <strong>Trapit</strong>.</h1>
 							</header>
 							<p>
-								A second year PhD student with Prof. Andrew McCallum at <a href="https://www.cics.umass.edu/" target="_blank">UMass</a>.
-								I am broadly interested in machine learning applied to text data and recommendation systems.
-
+								A third year PhD student with Prof. Andrew McCallum at <a href="https://www.cics.umass.edu/" target="_blank">UMass</a>.
+								I am broadly interested in deep learning, reinforcement learning and applications to text data and knowledge bases.
 							</p>
 							<!-- <p> A machine learning enthusiast, currently working on probabilistic learning. I look at ways to make sense from data under the formalization of Bayesian statistics, with the current focus being on topic models and Bayesian nonparametrics.</p> -->
 							<a href="#aboutme" class="button big scrolly">Learn more about what I do</a>
@@ -90,9 +89,13 @@
 							<!-- <h2>Education</h2>
 							<p align="justify">I graduated from <a href="https://en.wikipedia.org/wiki/Indian_Institute_of_Technology_Kanpur" target="_blank">Indian Institute of Technology Kanpur</a> with a B.Sc.+M.Sc. in <a href="http://www.iitk.ac.in/math/m-sc-integrated" target="_blank">Mathematics and Scientific Computing</a> in 2012.</p> -->
 							<h2>Prior Work</h2>
-							<p align="justify">I had a great time interning at <font color="blue">Facebook</font> in the <a href="https://research.facebook.com/machinelearning/" target="_blank">Applied Machine Learning</a> group, in Summer 2016, where I worked on deep learning models for some NLP tasks. </br>
-							After graduation and before starting my PhD, I worked with with <a href="http://en.wikipedia.org/wiki/Ravindran_Kannan" target="_blank">Prof. Ravi Kannan</a> and <a href="http://drona.csa.iisc.ernet.in/~chiru/" target="_blank">Prof. Chiranjib Bhattacharyya</a> at <a href="http://www.csa.iisc.ernet.in/" target="_blank">Indian Institute of Science</a>, on Topic Models, Bayesian nonparametrics and approximate inference in probabilistic models.
-							</p>
+								<p align="left">
+								<strong>Summer 2017</strong>: I interned at <a href="https://openai.com/" target="_blank">OpenAI</a> where I had the most amazing experience working on reinforcement learning
+								</br>
+								<strong>Summer 2016</strong>: I had a great time interning at <font color="blue">Facebook</font> in the <a href="https://research.facebook.com/machinelearning/" target="_blank">Applied Machine Learning</a> group where I worked on deep learning models for some NLP tasks
+								</br>
+								<strong>Before PhD</strong>: I worked with with <a href="http://en.wikipedia.org/wiki/Ravindran_Kannan" target="_blank">Prof. Ravi Kannan</a> and <a href="http://drona.csa.iisc.ernet.in/~chiru/" target="_blank">Prof. Chiranjib Bhattacharyya</a> at <a href="http://www.csa.iisc.ernet.in/" target="_blank">Indian Institute of Science</a>, on Bayesian models and approximate inference
+								</p>
 						</div>
 
 						<div class="4u">
@@ -103,11 +106,13 @@
 							I also know Hindi and English</p>
 							--->
 							<h2>Data Science Tool Kit</h2>
-							Algorithms and tools I use often <font size=2>(hover for more info)</font>
+							Algorithms and tools I use often
+							<!-- <font size=2>(hover for more info)</font> -->
 							<p align="left"><strong>Supervised</strong>: <label title="Deep Learning!"> Neural Networks </label>, <label title="Linear, Logistic, Kernel, Robust">Regression</label>, SVM, <label title="Random Forest, Gradient Boosted">Decision Trees and Forests</label>, Naive Bayes, kNN, <label title="Probabilistic Matrix Factorization, Bayesian Personalized Ranking and a few Hybrid models">Collaborative Filtering</label>, Bayesian Models </br>
 							<strong>Unsupervised</strong>: Autoencoders, Word Embeddings, <label title="LDA and its numerous variations">Topic Models</label>, <label title="DP mixture of Gaussians/Dirichlet, Hierarchical/Dependent/Nested DP Models">Dirichlet Process Mixture models</label>, <label title="K-Means (LLoyds, BIRCH), Gaussian Mixture, Dirichlet Mixture, DP mixture, Spectral Clustering (fancy name for SVD+KMeans)">Clustering</label>, PCA, Probabilistic Graphical Models</br>
-							<strong><label title="I also know English and Hindi">Languages</label>:</strong> <label title="Expert">Python</label>, <label title="Expert">Matlab</label>, <label title="Proficient">C</label>, <label title="Prior Experience">R</label>, <label title="Learnt in previous life. Can read easily, code with effort.">Java</label> </br>
-							<strong>Libraries:</strong> Theano, Lasagne, Numpy, Scipy, Scikit-Learn, Pandas, Gensim, ggPlot2, GSL </p>
+							<strong><label title="I also know English and Hindi">Languages</label>:</strong> <label title="Expert">Python</label>, <label title="Expert">Matlab</label>, <label title="Proficient">C</label>, <label title="Prior Experience">R</label></br>
+							<!-- , <label title="Learnt in previous life. Can read easily, code with effort.">Java</label> </br> -->
+							<strong>Libraries:</strong> Tensorflow, Torch, Numpy, Scipy, Scikit-Learn, Pandas </p>
 						</div>
 					</div>
 				</article>
@@ -117,10 +122,51 @@
 				<article class="container" id="publications">
 					<div class="container" align="left">
 
-							<h2 align="center">Publications</h2>
+						<h2 align="center">Publications</h2>
 						<p style="margin-bottom: 0.5em" align="center">Click the titles for more information about the work and to download paper/supplementary/code/data. </p>
 						<ul style="list-style-type:circle;margin-bottom: 0.5em;">
-							<li> <font color='green'>[New]</font> <a style="text-decoration:none;cursor:pointer;" onclick="$('#recsys16').toggle('slide');">Ask the GRU: Multi-task Learning for Deep Text Recommendations</a>. <strong>Trapit Bansal</strong>, David Belanger, Andrew McCallum. In ACM international conference on Recommender Systems (RecSys), 2016.
+							<li> <font color='green'>[New]</font> <a style="text-decoration:none;cursor:pointer;" onclick="$('#relnet').toggle('slide');">RelNet: End-to-end Modeling of Entities and Relations</a>. <strong>Trapit Bansal</strong>, Arvind Neelakantan, Andrew McCallum. (Preprint) ArXiv, 2017.
+							<div id="relnet" style='display:none'>
+								<strong>Abstract</strong>
+								<p style='font-size:80%'>
+									We introduce RelNet: a new model for relational reasoning. RelNet is a memory augmented neural network which models entities as abstract memory slots and is equipped with an additional relational memory which models relations between all memory pairs. The model thus builds an abstract knowledge graph on the entities and relations present in a document which can then be used to answer questions about the document. It is trained end-to-end: only supervision to the model is in the form of correct answers to the questions. We test the model on the 20 bAbI question-answering tasks with 10k examples per task and find that it solves all the tasks with a mean error of 0.3%, achieving 0% error on 11 of the 20 tasks.
+								</p>
+								<p><strong>Downloads</strong>: <a href="https://arxiv.org/abs/1706.07179" download="" target="_blank">Paper</a> </p>
+							</div>
+							</li>
+
+							<li> <font color='green'>[New]</font> <a style="text-decoration:none;cursor:pointer;" onclick="$('#icml-ws17').toggle('slide');">Low-Rank Hidden State Embeddings for Viterbi Sequence Labeling</a>. Dung Thai, Shikhar Murty, <strong>Trapit Bansal</strong>, Luke Vilnis, David Belanger, Andrew McCallum . In ICML Workshop on Deep Structured Prediction, 2017.
+							<div id="icml-ws17" style='display:none'>
+								<strong>Abstract</strong>
+								<p style='font-size:80%'>
+									In textual information extraction and other sequence
+									labeling tasks it is now common to use recurrent
+									neural networks (such as LSTM) to form
+									rich embedded representations of long-term input
+									co-occurrence patterns. Representation of
+									output co-occurrence patterns is typically limited
+									to a hand-designed graphical model, such
+									as a linear-chain CRF representing short-term
+									Markov dependencies among successive labels.
+									This paper presents a method that learns embedded
+									representations of latent output structure in
+									sequence data. Our model takes the form of a
+									finite-state machine with a large number of latent
+									states per label (a latent variable CRF), where the
+									state-transition matrix is factorized—effectively
+									forming an embedded representation of statetransitions
+									capable of enforcing long-term label
+									dependencies, while supporting exact Viterbi inference
+									over output labels. We demonstrate accuracy
+									improvements and interpretable latent structure
+									in a synthetic but complex task based on
+									CoNLL named entity recognition.
+								</p>
+								<p><strong>Downloads</strong>: <a href="https://deepstruct.github.io/ICML17/1stDeepStructWS_paper_16.pdf" download="" target="_blank">Paper</a> </p>
+							</div>
+							</li>
+
+							<li> <a style="text-decoration:none;cursor:pointer;" onclick="$('#recsys16').toggle('slide');">Ask the GRU: Multi-task Learning for Deep Text Recommendations</a>. <strong>Trapit Bansal</strong>, David Belanger, Andrew McCallum. In ACM international conference on Recommender Systems (RecSys), 2016.
 							<div id="recsys16" style='display:none'>
 								<strong>Abstract</strong>
 								<p style='font-size:80%'>
