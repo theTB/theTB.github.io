@@ -54,7 +54,7 @@
 				<article class="container" id="top">
 					<div class="row">
 						<div class="4u">
-							<span class="image fit"><img src="images/TB2.png" alt="" /></span>
+							<span class="image fit"><img src="images/portrait.png" alt="" /></span>
 						</div>
 						<div class="8u">
 							<header>
@@ -77,7 +77,7 @@
 						<div class="4u">
 
 								<h2>Research Interests</h2>
-								<p align="justify">I am a third year PhD student in <a href="http://www.iesl.cs.umass.edu/" target="_blank">IESL</a> working with <a href="https://people.cs.umass.edu/~mccallum/" target="_blank">Prof. Andrew McCallum</a>. My current research is on knowledge representation and reasoning. Broadly, I am interested in deep learning and reinforcement learning. 
+								<p align="justify">I am a third year PhD student in <a href="http://www.iesl.cs.umass.edu/" target="_blank">IESL</a> working with <a href="https://people.cs.umass.edu/~mccallum/" target="_blank">Prof. Andrew McCallum</a>. My current research is on knowledge representation and reasoning. Broadly, I am interested in deep learning and reinforcement learning.
 									<!-- , with the current focus being on Deep Learning. -->
 								<!-- Previously, I did a lot on Bayesian models and find the work at the intersection of Deep Learning and Bayesian modeling most interesting. -->
 								<!-- Before starting my PhD, I worked with with <a href="http://drona.csa.iisc.ernet.in/~chiru/" target="_blank">Prof. Chiranjib Bhattacharyya</a> and <a href="http://en.wikipedia.org/wiki/Ravindran_Kannan" target="_blank">Prof. Ravindran Kannan</a> at <a href="http://www.csa.iisc.ernet.in/" target="_blank">Indian Institute of Science</a>, on Topic Models and Bayesian nonparametrics. -->
@@ -88,7 +88,7 @@
 						<div class="4u">
 							<!-- <h2>Education</h2>
 							<p align="justify">I graduated from <a href="https://en.wikipedia.org/wiki/Indian_Institute_of_Technology_Kanpur" target="_blank">Indian Institute of Technology Kanpur</a> with a B.Sc.+M.Sc. in <a href="http://www.iitk.ac.in/math/m-sc-integrated" target="_blank">Mathematics and Scientific Computing</a> in 2012.</p> -->
-							<h2>Prior Work</h2>
+							<h2>Work</h2>
 								<p align="left">
 								<strong>Summer 2017</strong>: I interned at <a href="https://openai.com/" target="_blank">OpenAI</a> where I had the most amazing experience working on reinforcement learning
 								</br>
@@ -125,7 +125,34 @@
 						<h2 align="center">Publications</h2>
 						<p style="margin-bottom: 0.5em" align="center">Click the titles for more information about the work and to download paper/supplementary/code/data. </p>
 						<ul style="list-style-type:circle;margin-bottom: 0.5em;">
-							<li> <font color='green'>[New]</font> <a style="text-decoration:none;cursor:pointer;" onclick="$('#relnet').toggle('slide');">RelNet: End-to-end Modeling of Entities and Relations</a>. <strong>Trapit Bansal</strong>, Arvind Neelakantan, Andrew McCallum. (Preprint) ArXiv, 2017.
+							<li> <strong><font color='green'>[New]</font></strong> <a style="text-decoration:none;cursor:pointer;" onclick="$('#selfplay').toggle('slide');">Emergent Complexity via Multi-Agent Competition</a>. <strong>Trapit Bansal</strong>, Jakub Pachocki, Szymon Sidor, Ilya Sutskever, Igor Mordatch. ArXiv, 2017.
+							</br>
+							<div id="selfplay" style='display:none'>
+								<strong>Abstract</strong>
+								<div style="text-align:center">
+									<iframe width="560" height="315" src="https://www.youtube.com/embed/OBcjhp4KSgQ" frameborder="0" allowfullscreen></iframe>
+								</div>
+								<p style='font-size:80%'>
+									Reinforcement learning algorithms can train agents that solve problems in complex, interesting environments. Normally, the complexity of the trained agent is closely related to the complexity of the environment. This suggests that a highly capable agent requires a complex environment for training. In this paper, we point out that a competitive multi-agent environment trained with self-play can produce behaviors that are far more complex than the environment itself. We also point out that such environments come with a natural curriculum, because for any skill level, an environment full of agents of this level will have the right level of difficulty.
+									</br>
+									This work introduces several competitive multi-agent environments where agents compete in a 3D world with simulated physics. The trained agents learn a wide variety of complex and interesting skills, even though the environment themselves are relatively simple. The skills include behaviors such as running, blocking, ducking, tackling, fooling opponents, kicking, and defending using both arms and legs. A highlight of the learned behaviors can be found <a href="https://goo.gl/eR7fbX" target="_blank">here</a>.
+								</p>
+								<p><a href="https://arxiv.org/abs/1710.03748" download="" target="_blank">Paper</a>, <a href="https://github.com/openai/multiagent-competition" target="_blank">Code</a>, <a href="https://blog.openai.com/competitive-self-play/" target="_blank">OpenAI Blog Post</a> </p>
+							</div>
+							</li>
+
+							<li> <font color='green'>[New]</font> <a style="text-decoration:none;cursor:pointer;" onclick="$('#robosumo').toggle('slide');">Continuous Adaptation via Meta-Learning in Nonstationary and Competitive Environments</a>. Maruan Al-Shedivat, <strong>Trapit Bansal</strong>, Yuri Burda, Ilya Sutskever, Igor Mordatch, Pieter Abbeel. ArXiv, 2017.
+							</br>
+							<div id="robosumo" style='display:none'>
+								<strong>Abstract</strong>
+								<p style='font-size:80%'>
+									Ability to continuously learn and adapt from limited experience in nonstationary environments is an important milestone on the path towards general intelligence. In this paper, we cast the problem of continuous adaptation into the learning-to-learn framework. We develop a simple gradient-based meta-learning algorithm suitable for adaptation in dynamically changing and adversarial scenarios. Additionally, we design a new multi-agent competitive environment, RoboSumo, and define iterated adaptation games for testing various aspects of continuous adaptation strategies. We demonstrate that meta-learning enables significantly more efficient adaptation than reactive baselines in the few-shot regime. Our experiments with a population of agents that learn and compete suggest that meta-learners are the fittest.
+								</p>
+								<p><a href="https://arxiv.org/abs/1710.03641" download="" target="_blank">Paper</a>, <a href="https://github.com/openai/robosumo" target="_blank">Code</a>, <a href="https://blog.openai.com/meta-learning-for-wrestling/" target="_blank">OpenAI Blog Post</a> </p>
+							</div>
+							</li>
+
+							<li><font color='green'>[New]</font> <a style="text-decoration:none;cursor:pointer;" onclick="$('#relnet').toggle('slide');">RelNet: End-to-end Modeling of Entities and Relations</a>. <strong>Trapit Bansal</strong>, Arvind Neelakantan, Andrew McCallum. ArXiv, 2017.
 							<div id="relnet" style='display:none'>
 								<strong>Abstract</strong>
 								<p style='font-size:80%'>
@@ -135,7 +162,7 @@
 							</div>
 							</li>
 
-							<li> <font color='green'>[New]</font> <a style="text-decoration:none;cursor:pointer;" onclick="$('#icml-ws17').toggle('slide');">Low-Rank Hidden State Embeddings for Viterbi Sequence Labeling</a>. Dung Thai, Shikhar Murty, <strong>Trapit Bansal</strong>, Luke Vilnis, David Belanger, Andrew McCallum . In ICML Workshop on Deep Structured Prediction, 2017.
+							<li><a style="text-decoration:none;cursor:pointer;" onclick="$('#icml-ws17').toggle('slide');">Low-Rank Hidden State Embeddings for Viterbi Sequence Labeling</a>. Dung Thai, Shikhar Murty, <strong>Trapit Bansal</strong>, Luke Vilnis, David Belanger, Andrew McCallum . In ICML Workshop on Deep Structured Prediction, 2017.
 							<div id="icml-ws17" style='display:none'>
 								<strong>Abstract</strong>
 								<p style='font-size:80%'>
