@@ -162,8 +162,29 @@
 						<h2 align="center">Publications</h2>
 						<p style="margin-bottom: 0.5em" align="center">Click the titles for more information about the work and to download paper/supplementary/code/data. </p>
 						<ul style="list-style-type:circle;margin-bottom: 0.5em;">
+							<li><font color='green'>[New]</font> <a style="text-decoration:none;cursor:pointer;" onclick="$('#metanlp').toggle('slide');">Learning to Few-Shot Learn Across Diverse Natural Language Classification Tasks</a>. <strong>Trapit Bansal</strong>*, Rishikesh Jha*, Andrew McCallum. Preprint, 2019. (* Equal contribution)
+							</br>
+							<div id="metanlp" style='display:none'>
+								<strong>Abstract</strong>
+								<p style='font-size:80%'>
+									Self-supervised pre-training of transformer models has shown enormous success in improving performance on a number of downstream tasks. However, fine-tuning on a new task still requires large amounts of task-specific labelled data to achieve good performance. We consider this problem of learning to generalize to new tasks with few examples as a meta-learning problem. While meta-learning has shown tremendous progress in recent years, its application is still limited to simulated problems or problems with limited diversity across tasks. We develop a novel method, LEOPARD, which enables optimization-based meta-learning across tasks with different number of classes, and evaluate existing methods on generalization to diverse NLP classification tasks. LEOPARD is trained with the state-of-the-art transformer architecture and shows strong generalization to tasks not seen at all during training, with as few as 8 examples per label. On 16 NLP datasets, across a diverse task-set such as entity typing, relation extraction, natural language inference, sentiment analysis, and several other text categorization tasks, we show that LEOPARD learns better initial parameters for few-shot learning than self-supervised pre-training or multi-task training, outperforming many strong baselines, for example, increasing F1 from 49% to 72%.
+								</p>
+								<p><a href="papers/leopard.pdf" target="_blank">Paper</a>, <a href="" target="_blank">Code (Coming Soon)</a> </p>
+							</div>
+							</li>
 
-							<li><font color='green'>[New]</font> <a style="text-decoration:none;cursor:pointer;" onclick="$('#a2n').toggle('slide');">A2N: Attending to Neighbors for Knowledge Graph Inference</a>. <strong>Trapit Bansal</strong>, Da-Cheng Juan, Sujith Ravi, Andrew McCallum. In Association for Computational Linguistics (ACL short), 2019. <strong><font color='green'><i>(Oral)</i></font></strong>
+							<li><font color='green'>[New]</font> <a style="text-decoration:none;cursor:pointer;" onclick="$('#snerl').toggle('slide');">Simultaneously Linking Entities and Extracting Relations from Biomedical Text without Mention-level Supervision.</a> <strong>Trapit Bansal</strong>, Pat Verga, Neha Choudhary, Andrew McCallum. In Association for the Advancement of Artificial Intelligence (AAAI), 2019. <strong><font color='green'><i>(Oral)</i></font></strong>
+							</br>
+							<div id="snerl" style='display:none'>
+								<strong>Abstract</strong>
+								<p style='font-size:80%'>
+									Understanding the meaning of text often involves reasoning about entities and their relationships. This requires identifying textual mentions of entities, linking them to a canonical concept, and discerning their relationships. These tasks are nearly always viewed as separate components within a pipeline, each requiring a distinct model and training data. While relation extraction can often be trained with readily available weak or distant supervision, entity linkers typically require expensive mention-level supervision -- which is not available in many domains. Instead, we propose a model which is trained to simultaneously produce entity linking and relation decisions while requiring no mention-level annotations. This approach avoids cascading errors that arise from pipelined methods and more accurately predicts entity relationships from text. We show that our model outperforms a state-of-the art entity linking and relation extraction pipeline on two biomedical datasets and can drastically improve the overall recall of the system.
+								</p>
+								<p><a href="papers/snerl.pdf" target="_blank">Paper</a>, <a href="" target="_blank">Code (Coming Soon)</a> </p>
+							</div>
+							</li>
+
+							<li><a style="text-decoration:none;cursor:pointer;" onclick="$('#a2n').toggle('slide');">A2N: Attending to Neighbors for Knowledge Graph Inference</a>. <strong>Trapit Bansal</strong>, Da-Cheng Juan, Sujith Ravi, Andrew McCallum. In Association for Computational Linguistics (ACL short), 2019. <strong><font color='green'><i>(Oral)</i></font></strong>
 							</br>
 							<div id="a2n" style='display:none'>
 								<strong>Abstract</strong>
