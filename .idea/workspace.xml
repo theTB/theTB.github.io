@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="59285da5-5e85-4779-9192-336bf10d15a5" name="Default Changelist" comment="" />
+    <list default="true" id="59285da5-5e85-4779-9192-336bf10d15a5" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -13,8 +15,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="460">
-              <caret line="175" column="419" selection-start-line="175" selection-start-column="419" selection-end-line="175" selection-end-column="419" />
+            <state relative-caret-position="-1027">
+              <caret line="67" column="45" selection-start-line="67" selection-start-column="38" selection-end-line="67" selection-end-column="45" />
               <folding>
                 <element signature="n#style#0;n#ul#0;n#div#0;n#article#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#ul#0;n#div#0;n#article#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -47,6 +49,7 @@
     <findStrings>
       <find>wrappe</find>
       <find>4u</find>
+      <find>aboutme</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -117,10 +120,10 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1440" height="877" extended-state="6" />
+    <frame x="0" y="23" width="1440" height="877" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17899929" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17829457" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -142,8 +145,8 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="460">
-          <caret line="175" column="419" selection-start-line="175" selection-start-column="419" selection-end-line="175" selection-end-column="419" />
+        <state relative-caret-position="-1027">
+          <caret line="67" column="45" selection-start-line="67" selection-start-column="38" selection-end-line="67" selection-end-column="45" />
           <folding>
             <element signature="n#style#0;n#ul#0;n#div#0;n#article#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#ul#0;n#div#0;n#article#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />

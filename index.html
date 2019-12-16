@@ -41,9 +41,9 @@
 			<nav id="nav">
 				<ul class="container">
 					<li><a href="#top">Top</a></li>
-					<li><a href="#aboutme">About Me</a></li>
+					<li><a href="#aboutme">Highlights</a></li>
 					<li><a href="#publications">Publications</a></li>
-					<li><a href="#fun">Fun</a></li>
+					<!--<li><a href="#fun">Fun</a></li>-->
 					<!-- <li><a href="#code">Code</a></li> -->
 					<li><a href="#contact">Contact</a></li>
 				</ul>
@@ -62,7 +62,7 @@
 							</header>
 							<p>
 								A PhD student with Prof. Andrew McCallum at <a href="https://www.cics.umass.edu/" target="_blank">UMass</a>.
-								I am broadly interested in deep learning, reinforcement learning and applications to text data, knowledge bases, and multi-agent systems.
+								I am broadly interested in deep learning, reinforcement learning and meta-learning with applications to text data, knowledge bases, and multi-agent systems.
 							</p>
 							<!-- <p> A machine learning enthusiast, currently working on probabilistic learning. I look at ways to make sense from data under the formalization of Bayesian statistics, with the current focus being on topic models and Bayesian nonparametrics.</p> -->
 							<a href="#aboutme" class="button big scrolly">Learn more about what I do</a>
@@ -97,7 +97,7 @@
 									Our work on attention-based method for KG completion, A2N, accepted at ACL 2019.
 								</li>
 								<li>
-									Our ICLR 2018 paper on meta-learning won the <strong>best paper award</strong>!
+									Our <a href="https://arxiv.org/abs/1710.03641" target="_blank">ICLR 2018 paper</a> on meta-learning for continuous adaptation won the <strong>best paper award</strong>!
 								</li>
 								<li>
 									Our work on competitive self-play featured in
@@ -133,13 +133,13 @@
 							<h2 align="center">Work Experience</h2>
 								<ul style="list-style-type:circle;margin-bottom: 0.5em;margin-left: 0.5em;">
 								<li>
-									<strong>Summer 2018</strong>: I interned at <a href="" target="_blank">Google Research</a> where I had an amazing experience working on knowledge graph reasoning
+									<strong>Summer 2018</strong>: I interned at <a href="" target="_blank">Google Research</a> where I worked on knowledge graph reasoning
 								</li>
 								<li>
-									<strong>Summer 2017</strong>: I interned at <a href="https://openai.com/" target="_blank">OpenAI</a> where I had the most amazing experience working on reinforcement learning
+									<strong>Summer 2017</strong>: I interned at <a href="https://openai.com/" target="_blank">OpenAI</a> where I worked on multi-agent reinforcement learning and meta-learning
 								</li>
 								<li>
-									<strong>Summer 2016</strong>: I interned at <font color="blue">Facebook</font> in the <a href="https://research.facebook.com/machinelearning/" target="_blank">Applied Machine Learning</a> group where I worked on deep learning models for some NLP tasks
+									<strong>Summer 2016</strong>: I interned at <font color="blue">Facebook</font> in the <a href="https://research.fb.com/category/machine-learning/" target="_blank">Applied Machine Learning</a> group where I worked on deep learning models for some NLP tasks
 								</li>
 								<li>
 									<strong>Fall 2015</strong>: Started as a MS/PhD student with <a href="https://people.cs.umass.edu/~mccallum/" target="_blank">Prof. Andrew McCallum</a>
@@ -169,7 +169,7 @@
 								<p style='font-size:80%'>
 									Self-supervised pre-training of transformer models has shown enormous success in improving performance on a number of downstream tasks. However, fine-tuning on a new task still requires large amounts of task-specific labelled data to achieve good performance. We consider this problem of learning to generalize to new tasks with few examples as a meta-learning problem. While meta-learning has shown tremendous progress in recent years, its application is still limited to simulated problems or problems with limited diversity across tasks. We develop a novel method, LEOPARD, which enables optimization-based meta-learning across tasks with different number of classes, and evaluate existing methods on generalization to diverse NLP classification tasks. LEOPARD is trained with the state-of-the-art transformer architecture and shows strong generalization to tasks not seen at all during training, with as few as 8 examples per label. On 16 NLP datasets, across a diverse task-set such as entity typing, relation extraction, natural language inference, sentiment analysis, and several other text categorization tasks, we show that LEOPARD learns better initial parameters for few-shot learning than self-supervised pre-training or multi-task training, outperforming many strong baselines, for example, increasing F1 from 49% to 72%.
 								</p>
-								<p><a href="papers/leopard.pdf" target="_blank">Paper</a>, <a href="" target="_blank">Code (Coming Soon)</a> </p>
+								<p><a href="https://arxiv.org/abs/1911.03863" target="_blank">Paper</a>, <a href="" target="_blank">Code (Coming Soon)</a> </p>
 							</div>
 							</li>
 
@@ -349,21 +349,21 @@ SCTM is rigorously evaluated on three datasets, crawled from Yahoo! News (138,00
 				</article>
 			</div>
 
-			<div class="wrapper style2">
-				<article class="container" id="fun">
-					<div class="container" align="left">
+			<!--<div class="wrapper style2">-->
+				<!--<article class="container" id="fun">-->
+					<!--<div class="container" align="left">-->
 
-							<h2 align="center">Other Fun Stuff</h2>
+							<!--<h2 align="center">Other Fun Stuff</h2>-->
 
-						<ul style="list-style-type:circle" align="left">
-							<li> <strong>Character LSTM for Sentiment Analysis on Twitter</strong>: <a href="http://k8si.github.io/" target="_blank">Kate Silverstein</a>, Jun Wang and I worked on a character-level LSTM model for sentiment analysis on Twitter. Read our <a href="https://github.com/umass-semeval/semeval16/blob/master/paper/DeepX_report.pdf" target="_blank">short report</a> on some of the cool results from the model. Code is available on <a href="https://github.com/umass-semeval/semeval16" target="_blank">Github</a>. Kate also has an interesting post on it <a href="http://k8si.github.io/2016/01/28/lstm-networks-for-sentiment-analysis-on-tweets.html" target="_blank">here.</a></li>
-							<li> <strong>Learning to play Atari</strong>:
-								For my Deep Learning class mid-term project, I tried to implement <a href="http://arxiv.org/abs/1509.06461" target="_blank">double Q-learning</a> on Atari Games. Check out the videos of the learned agent playing <a href="https://www.youtube.com/watch?v=OxOqLQ8Ed_k" target="_blank">Boxing</a> and <a href="https://www.youtube.com/watch?v=19MpHu_Sthg" target="_blank">Pong</a> (spoiler: they kick ass!).
-							</li>
-						</ul>
-					</div>
-				</article>
-			</div>
+						<!--<ul style="list-style-type:circle" align="left">-->
+							<!--<li> <strong>Character LSTM for Sentiment Analysis on Twitter</strong>: <a href="http://k8si.github.io/" target="_blank">Kate Silverstein</a>, Jun Wang and I worked on a character-level LSTM model for sentiment analysis on Twitter. Read our <a href="https://github.com/umass-semeval/semeval16/blob/master/paper/DeepX_report.pdf" target="_blank">short report</a> on some of the cool results from the model. Code is available on <a href="https://github.com/umass-semeval/semeval16" target="_blank">Github</a>. Kate also has an interesting post on it <a href="http://k8si.github.io/2016/01/28/lstm-networks-for-sentiment-analysis-on-tweets.html" target="_blank">here.</a></li>-->
+							<!--<li> <strong>Learning to play Atari</strong>:-->
+								<!--For my Deep Learning class mid-term project, I tried to implement <a href="http://arxiv.org/abs/1509.06461" target="_blank">double Q-learning</a> on Atari Games. Check out the videos of the learned agent playing <a href="https://www.youtube.com/watch?v=OxOqLQ8Ed_k" target="_blank">Boxing</a> and <a href="https://www.youtube.com/watch?v=19MpHu_Sthg" target="_blank">Pong</a> (spoiler: they kick ass!).-->
+							<!--</li>-->
+						<!--</ul>-->
+					<!--</div>-->
+				<!--</article>-->
+			<!--</div>-->
 
 		<!-- Code -->
 			<!-- <div class="wrapper style3">
