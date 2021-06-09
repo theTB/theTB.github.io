@@ -330,7 +330,18 @@ SCTM is rigorously evaluated on three datasets, crawled from Yahoo! News (138,00
 						</br>
 						<h3 align="left">Workshops / Competitions</h3>
 						<ul style="list-style-type:circle;margin-bottom: 0.5em;">
-							<li><font color='green'>[New]</font> <a style="text-decoration:none;cursor:pointer;" onclick="$('#bioasq').toggle('slide');">Unsupervised Pre-training for Biomedical Question Answering</a>. Vaishnavi Kommaraju*, Karthick Gunasekaran*, Kun Li*, <strong>Trapit Bansal</strong>, Andrew McCallum, Ivana Williams, Ana-Maria Istrate. In CLEF 8<sup>th</sup> Workshop on Large-Scale Biomedical Semantic Indexing and Question Answering (BioASQ), 2020. <strong><font color='green'><i>(2<sup>nd</sup> in BioASQ Competition 8B Phase B)</i></font></strong>
+							<li><font color='green'>[New]</font> <a style="text-decoration:none;cursor:pointer;" onclick="$('#bioasq').toggle('slide');">Simultaneously Self-Attending to Text and Entities for Knowledge-Informed Text Representations</a>. Dung Thai*, Raghuveer Thirukovalluru*, <strong>Trapit Bansal</strong>*, Andrew McCallum. In 6<sup>th</sup> ACL Workshop on Representation Learning for NLP (RepL4NLP), 2021.
+							</br>
+							<div id="bioasq" style='display:none'>
+								<strong>Abstract</strong>
+								<p style='font-size:80%'>
+									Pre-trained language models have emerged as highly successful methods for learning good text representations. However, the amount of structured knowledge retained in such models, and how (if at all) it can be extracted, remains an open question. In this work, we aim at directly learning text representations which leverage structured knowledge about entities mentioned in the text. This can be particularly beneficial for downstream tasks which are knowledge-intensive. Our approach utilizes self-attention between words in the text and knowledge graph (KG) entities mentioned in the text. While existing methods require entity-linked data for pre-training, we train using a mention-span masking objective and a candidate ranking objective – which doesn’t require any entity-links and only assumes access to an alias table for retrieving candidates, enabling large-scale pre-training. We show that the proposed model learns knowledgeinformed text representations that yield improvements on the downstream tasks over existing methods.
+								</p>
+								<p><a href="papers/knit_paper.pdf" target="_blank">Paper</a>, <a href="" target="_blank">Code</a></p>
+							</div>
+							</li>
+
+							<li><a style="text-decoration:none;cursor:pointer;" onclick="$('#bioasq').toggle('slide');">Unsupervised Pre-training for Biomedical Question Answering</a>. Vaishnavi Kommaraju*, Karthick Gunasekaran*, Kun Li*, <strong>Trapit Bansal</strong>, Andrew McCallum, Ivana Williams, Ana-Maria Istrate. In CLEF 8<sup>th</sup> Workshop on Large-Scale Biomedical Semantic Indexing and Question Answering (BioASQ), 2020. <strong><font color='green'><i>(2<sup>nd</sup> in BioASQ Competition 8B Phase B)</i></font></strong>
 							</br>
 							<div id="bioasq" style='display:none'>
 								<strong>Abstract</strong>
