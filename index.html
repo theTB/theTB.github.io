@@ -66,7 +66,6 @@
 								<h1>Hi, I'm <strong>Trapit</strong> !</h1>
 							</header>
 							<p style="font-size:1em;"> 
-								I am on the job market.</br>
 								I am a Ph.D. student at UMass Amherst, advised by <a href="http://www.iesl.cs.umass.edu/" target="_blank">Prof. Andrew McCallum</a>. I am interested in multiple areas of research in machine learning and Natural Language Processing (NLP). The overarching goal of my research is to enable human-like generalization in machine learning models -- touching on data/compute efficiency, unsupervised learning signals, and incorporating external knowledge. Most recently, I have been interested in improving the generalization of NLP models with limited human-labeled data through meta-learning, self-supervised learning, and multi-task learning. 
 								</br>
 								In the past, I have developed machine learning methods for various applications in recommendation systems, information extraction, knowledge representation, and reasoning. I have also dabbled in reinforcement learning for multi-agent systems to train agents that show complex emergent behavior without explicit human-designed rewards and learn to continuously adapt to changes in their environment. I have been fortunate to have interned at Facebook, OpenAI, Google Research, and Microsoft Research.
@@ -91,6 +90,9 @@
 							<h2 align="center">Highlights</h2>
 							<ul style="list-style-type:circle;margin-bottom: 0.5em;margin-left: 0.5em;">
 								<li>
+									I was recognized as an <a href="https://neurips.cc/Conferences/2021/ProgramCommittee" target="_blank">outstanding reviewer</a> for NeurIPS 2021.
+								</li>
+								<li>
 									I am helping co-organize the <a href="https://sites.google.com/view/repl4nlp-2021/call-for-papers" target="_blank">6th RepL4NLP Workshop</a> at ACL 2021. Please consider submitting your work.
 								</li>
 								<li>
@@ -99,9 +101,9 @@
 								<li>
 									Our work on self-supervised meta-learning for NLP accepted at EMNLP 2020.
 								</li>
-								<li>
+								<!-- <li>
 									Our work on attention-based method for KG completion, A2N, accepted at ACL 2019.
-								</li>
+								</li> -->
 								<li>
 									Our <a href="https://arxiv.org/abs/1710.03641" target="_blank">ICLR 2018 paper</a> on meta-learning for continuous adaptation won the <strong>best paper award</strong>!
 								</li>
@@ -184,15 +186,13 @@
 							<div id="diversemeta" style='display:none'>
 								<strong>Abstract</strong>
 								<p style='font-size:80%'>
-									Meta-learning considers the problem of learning an efficient learning process that can leverage its past experience to accurately solve new tasks. While this holds the potential to produce methods that enable human-like generalization abilities, the efficacy of meta-learning crucially depends on the distribution of tasks available for training;
-unfortunately, this is often assumed to be known a priori or constructed from limited supervised datasets. 
-In this work, we aim to fill this gap by considering self-supervised task distributions that automatically propose tasks from unlabeled text for large-scale meta-learning in NLP. We design multiple distributions of self-supervised tasks by considering important aspects of task diversity, difficulty, type, domain, and task curriculum during training, and investigate how they affect meta-learning performance. Our analysis shows that all these factors meaningfully alter the task distribution, some inducing significant improvements in downstream few-shot accuracy of the meta-learned models. Empirically, results on 20 downstream tasks show significant improvements in few-shot learning -- adding up to +4.2% absolute accuracy (on average) to the previous unsupervised meta-learning method, and perform comparably to supervised methods on the FewRel 2.0 benchmark.
+									Meta-learning considers the problem of learning an efficient learning process that can leverage its past experience to accurately solve new tasks. However, the efficacy of meta-learning crucially depends on the distribution of tasks available for training, and this is often assumed to be known a priori or constructed from limited supervised datasets. In this work, we aim to provide task distributions for meta-learning by considering self-supervised tasks automatically proposed from unlabeled text, to enable large-scale meta-learning in NLP. We design multiple distributions of self-supervised tasks by considering important aspects of task diversity, difficulty, type, domain, and curriculum, and investigate how they affect meta-learning performance. Our analysis shows that all these factors meaningfully alter the task distribution, some inducing significant improvements in downstream few-shot accuracy of the meta-learned models. Empirically, results on 20 downstream tasks show significant improvements in few-shot learning -- adding up to +4.2% absolute accuracy (on average) to the previous unsupervised meta-learning method, and perform comparably to supervised methods on the FewRel 2.0 benchmark.
 								</p>
-								<p><a href="" target="_blank">Paper</a> (Coming soon), <a href="" target="_blank">Code / Data</a>(Coming Soon) </p>
+								<p><a href="papers/meta_tasks_emnlp.pdf" target="_blank">Paper</a>, <a href="" target="_blank">Code / Data</a>(Coming Soon) </p>
 							</div>
 							</li>
 
-							<li><font color='green'>[New]</font> <a style="text-decoration:none;cursor:pointer;" onclick="$('#selfmeta').toggle('slide');">Self-Supervised Meta-Learning for Few-Shot Natural Language Classification Tasks</a>. <strong>Trapit Bansal</strong>, Rishikesh Jha, Tsendsuren Munkhdalai, Andrew McCallum. In Empirical Methods in Natural Language Processing (EMNLP), 2020. <strong><font color='green'><i>(Oral)</i></font></strong>
+							<li><a style="text-decoration:none;cursor:pointer;" onclick="$('#selfmeta').toggle('slide');">Self-Supervised Meta-Learning for Few-Shot Natural Language Classification Tasks</a>. <strong>Trapit Bansal</strong>, Rishikesh Jha, Tsendsuren Munkhdalai, Andrew McCallum. In Empirical Methods in Natural Language Processing (EMNLP), 2020. <strong><font color='green'><i>(Oral)</i></font></strong>
 							</br>
 							<div id="selfmeta" style='display:none'>
 								<strong>Abstract</strong>
@@ -409,6 +409,8 @@ SCTM is rigorously evaluated on three datasets, crawled from Yahoo! News (138,00
 				<article class="container" id="talks">
 					<h2 align="center">Talks</h2>
 					<ul style="list-style-type:circle;margin-bottom: 0.5em;" align="left">
+						<li>Invited research talks at Google Research, OpenAI, Adobe Research, Salesforce Research and Oracle, titled "Few-shot Natural Language Processing via Self-Supervised Meta-Learning", 2021.</li>
+						<li>Invited research talk at <a href="https://umass-mlfl.github.io/" target="_blank">Machine Learning & Friends Lunch</a>, UMass Amherst, 2021. <a href="https://www.youtube.com/watch?v=Ek0-boGpg5E"  target="_blank">[Recording]</a></li>
 						<li>Invited talk at <a href="https://sites.google.com/view/dlub/2021" target="_blank">Deep Learning Summer School, Mongolia 2021</a>. <a href="https://fb.watch/6wsCefERWu/"  target="_blank">[Recording]</a></li>
 						<li>Conference oral talk at EMNLP, 2020. <a href="https://slideslive.com/38939198/selfsupervised-metalearning-for-fewshot-natural-language-classification-tasks" target="_blank">[Recording]</a></li>
 						<li>Conference oral talk at COLING, 2020. <a href="https://www.youtube.com/watch?v=psvG2K2w4sM" target="_blank">[Recording]</a></li>
